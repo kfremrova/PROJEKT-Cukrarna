@@ -38,9 +38,11 @@ body {
 	color: #242424;
 	font-size: 18px;
 	font-family: 'Lora', serif;
-	/*flexbox z celé stránky níže, má to smysl?
+	flexbox z celé stránky níže, má to smysl?
 	display: flex;
-	flex-direction: column;*/
+	flex-direction: column;
+	flex-basis: 100vw;
+	justify-content: center;
 }
 
 h1,
@@ -85,7 +87,7 @@ h3 {
 	padding-bottom: 80px;
 }
 
-/*Začínám se hero-sekcí*/
+/*Začínám s hero-sekcí*/
 
 .hero {
 	background-image: url(images/cupcake.jpg);
@@ -101,6 +103,17 @@ h1 {
 .hero p {
 	font-size: 24px;
 	font-style: italic;
+}
+
+
+/*Patička nakonec*/
+
+.footer {
+	padding: 30px 0px;
+	background-color: #303339;
+	color: white;
+	text-align: center;
+
 }
 
 
